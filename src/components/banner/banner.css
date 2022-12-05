@@ -1,0 +1,19 @@
+.banner-top{
+    background-image: url(../../assets/autumn_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+.banner-top h1{
+    color: #EA6E4A;
+    font-size: 3rem;
+    font-weight: 900;
+    padding-top: 3rem;
+}
+.banner-top h5{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 1.5rem;
+    
+}
