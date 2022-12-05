@@ -3,7 +3,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: auto;
+    padding-bottom: 30px;
 }
 .banner-top h1{
     color: #EA6E4A;

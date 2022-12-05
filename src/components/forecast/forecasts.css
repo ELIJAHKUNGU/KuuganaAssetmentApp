@@ -45,7 +45,7 @@
     grid-column-gap: 15px;
     -webkit-column-gap: 15px;
     column-gap: 15px;
-    display: grid;
+    display: block;
     flex: 1 1;
     grid-template-columns: auto auto;
     padding: 5px 15px;
@@ -68,5 +68,17 @@
   .accordion-item label:last-child {
     color: #212121;
   }
+ 
+
+@media only screen and (max-width: 800px) {
+  .accordion {
+    margin-left: -40px !important;
+  }
+  .accordion-item {
+   
+    display: block;
+   
+  }
+}
 
   

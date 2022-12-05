@@ -15,10 +15,7 @@
   }
   .displayweather .row .col-sm-6.large-container{
     min-width: 600px;
-    
-   
-    
-    /* border: 1px solid black; */
+    margin-top: 20px;
   }
   .displayweather .maincard {
     width: 350px;
@@ -37,7 +34,7 @@
   .displayweather h1 {
     font-size: 5rem;
     margin: -10px;
-    margin-left: -150px;
+    margin-left: -120px;
   }
   
   .displayweather .weather-icon {
@@ -165,8 +162,63 @@
     font-family: 'Recursive', sans-serif;
     font-size: 19px;
 }
+.displayweather .row .col-sm-6.smallscreen{
+ display: none;
 
+}
 .flex-forecast{
     display: flex;
     justify-content: space-between;
+}
+@media only screen and (max-width: 400px) {
+  .displayweather .row{
+    display: block;
+ 
+
+  }
+}
+@media only screen and (max-width: 600px) {
+  .displayweather .row{
+    display: block;
+ 
+   }
+   .displayweather .row .col-sm-6.smallscreen{
+    /* max-width:200px; */
+   
+  
+  }
+}
+@media only screen and (max-width: 800px) {
+  .displayweather .row{
+    display: block;
+ 
+   }
+   /* .displayweather .row .col-sm-6 {
+    max-width: 200px !important;
+    
+  } */
+  .displayweather .row .col-sm-6.large-container{
+    display: none;
+    margin-top: 20px;
+  
+  }
+  .displayweather .row .col-sm-6.smallscreen{
+    display: block;
+    margin-top: 20px;
+   
+   }
+  .displayweather .weatherdetails {
+    margin-left: 50px;
+    margin-right: 50px;
+  
+    display: block;
+    
+   
+  }
+  .displayweather h1 {
+    font-size: 4rem;
+    margin: -10px;
+    margin-left: 0px;
+    color: aliceblue;
+  }
 }
